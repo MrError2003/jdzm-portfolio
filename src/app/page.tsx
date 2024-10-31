@@ -6,7 +6,7 @@ export default function Home() {
 
       {/* Fondo de pantalla con patrón */}
       <div >
-        <Bgpattern className=" fixed inset-0 z-[-1]" />
+        <Bgpattern className="fixed inset-0 z-[-1]" />
       </div>
 
       {/* Contenido principal en el frente */}
