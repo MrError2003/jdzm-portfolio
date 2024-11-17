@@ -1,20 +1,15 @@
-import Bgpattern from "./components/bgpattern";
+import Bgtres from "./components/bgtres";
+import { Navbar } from "./components/navbar";
 
 export default function Home() {
   return (
     <>
 
-      {/* Fondo de pantalla con patrón */}
-      <div >
-        <Bgpattern className="fixed inset-0 z-[-1]" />
+      <div className="fixed inset-0 z-[-1]">
+        <Bgtres />
       </div>
 
-      {/* Contenido principal en el frente */}
-      <div className="flex flex-col items-center justify-center h-screen">
-        <h1 className="text-4xl font-bold text-center">
-          Welcome to your Tailwind CSS + Next.js app
-        </h1>
-      </div>
+      <Navbar />
 
     </>
 
