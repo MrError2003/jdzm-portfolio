@@ -1,54 +1,98 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="bg-white/10 backdrop-blur-lg w-4/5 mx-auto mt-6">
-            <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div className="fixed bg-white/10 backdrop-blur-md w-2/4 mx-auto mt-6 rounded-md border-white/5 border-2 flex items-center">
+            <div className="px-4 py-1.5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+
+                {/*Se agregan estilos combinados (tailwind y CSS) para evitar resize del div principal*/}
+
                 <div className="relative flex items-center justify-between">
-                    <ul className="flex items-center space-x-8 lg:flex">
+                    <ul className="flex items-center space-x-12 lg:flex">
                         <li>
-                            <a
-                                href="/"
+                            <Link
+                                href="/#"
                                 aria-label="Our product"
-                                title="Our product"
-                                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                            >
-                                Product
-                            </a>
+                                title="Our product">
+
+                                <button
+                                    className="cursor-pointer flex items-center justify-center rounded-md hover:border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 focus:backdrop-blur-lg focus:bg-white/20 active:bg-white/30 transition-all"
+                                    style={{
+                                        width: "82px",
+                                        height: "28px",
+                                        boxSizing: "border-box"
+                                    }}
+                                >
+                                    <span className="text-gray-100">Save Post</span>
+                                </button>
+
+
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="/"
+                        <Link
+                                href="/#"
                                 aria-label="Our product"
-                                title="Our product"
-                                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                            >
-                                Features
-                            </a>
+                                title="Our product">
+
+                                <button
+                                    className="cursor-pointer flex items-center justify-center rounded-md hover:border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 focus:backdrop-blur-lg focus:bg-white/20 active:bg-white/30 transition-all"
+                                    style={{
+                                        width: "82px",
+                                        height: "28px",
+                                        boxSizing: "border-box"
+                                    }}
+                                >
+                                    <span className="text-gray-100">Save Post</span>
+                                </button>
+
+
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="/"
-                                aria-label="Product pricing"
-                                title="Product pricing"
-                                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                            >
-                                Pricing
-                            </a>
+                        <Link
+                                href="/#"
+                                aria-label="Our product"
+                                title="Our product">
+
+                                <button
+                                    className="cursor-pointer flex items-center justify-center rounded-md hover:border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 focus:backdrop-blur-lg focus:bg-white/20 active:bg-white/30 transition-all"
+                                    style={{
+                                        width: "82px",
+                                        height: "28px",
+                                        boxSizing: "border-box"
+                                    }}
+                                >
+                                    <span className="text-gray-100">Save Post</span>
+                                </button>
+
+
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="/"
-                                aria-label="About us"
-                                title="About us"
-                                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                            >
-                                About us
-                            </a>
+                        <Link
+                                href="/#"
+                                aria-label="Our product"
+                                title="Our product">
+
+                                <button
+                                    className="cursor-pointer flex items-center justify-center rounded-md hover:border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 focus:backdrop-blur-lg focus:bg-white/20 active:bg-white/30 transition-all"
+                                    style={{
+                                        width: "82px",
+                                        height: "28px",
+                                        boxSizing: "border-box"
+                                    }}
+                                >
+                                    <span className="text-gray-100">Save Post</span>
+                                </button>
+
+
+                            </Link>
                         </li>
                     </ul>
                     <div className="lg:hidden">
@@ -180,6 +224,6 @@ export const Navbar = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };

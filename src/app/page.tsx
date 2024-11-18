@@ -1,5 +1,6 @@
 import Bgtres from "./components/bgtres";
 import { Navbar } from "./components/navbar";
+import { Prcard } from "./components/prcard";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       </div>
 
       <Navbar />
+
+      <Prcard />
 
     </>
 
