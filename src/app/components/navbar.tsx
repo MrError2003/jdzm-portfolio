@@ -7,7 +7,7 @@ export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="fixed bg-white/10 backdrop-blur-md w-2/4 mx-auto mt-6 rounded-md border-white/5 border-2 flex items-center">
+        <div className="bg-white/10 backdrop-blur-md w-2/4 m-auto mt-6 rounded-md border-white/5 border-2 flex justify-center items-center">
             <div className="px-4 py-1.5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
 
                 {/*Se agregan estilos combinados (tailwind y CSS) para evitar resize del div principal*/}

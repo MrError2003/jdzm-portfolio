@@ -1,6 +1,6 @@
 import Bgtres from "./components/bgtres";
 import { Navbar } from "./components/navbar";
-import { Prcard } from "./components/prcard";
+import Prcard from "./components/prcard";
 
 export default function Home() {
   return (
@@ -10,9 +10,17 @@ export default function Home() {
         <Bgtres />
       </div>
 
-      <Navbar />
+      <div className="fixed inset-0">
+        <Navbar />
+      </div>
 
-      <Prcard />
+      <div className="mt-28 flex justify-center">
+        <Prcard />
+      </div>
+
+
+
+
 
     </>
 
