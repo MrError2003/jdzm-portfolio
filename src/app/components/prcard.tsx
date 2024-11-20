@@ -8,22 +8,27 @@ import RippleButton from '@/components/ui/ripple-button';
 
 const Prcard = () => {
     return (
-        <div className="flex items-center p-3 w-2/4 h-48 bg-white/10 backdrop-blur-md rounded-md shadow-lg border-white/5 border-2">
-            <section className="flex justify-center items-center size-40 rounded-full shadow-md bg-gradient-to-r from-[#268C5C] to-[#0F402E]">
+        <div className="flex items-center p-3 w-3/4 h-48 bg-white/10 backdrop-blur-md rounded-md shadow-lg border-white/5 border-2">
+            <section className="flex ml-10 justify-center items-center size-40 rounded-full shadow-md bg-gradient-to-r from-[#268C5C] to-[#0F402E]">
                 <Image src="/images/fotopersonal.png" alt="avatar" width={160} height={160} className="rounded-full" />
             </section>
-            <section className="block pt-1 ">
+            <section className=" pt-1 ">
                 <div className="pl-3">
                     <HyperText
                         className="text-gray-200 font-bold text-4xl"
                         duration={20}
-                        text="Juan David Zapata"
+                        text="Juan David Zapata Márquez"
                     />
                     <h3 className="text-gray-200 text-lg mb-2 pl-1">Desarrollador web</h3>
-                    <Badge className="bg-white text-black hover:text-white text-sm"><svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" className="pr-1"><path fill="#dc2626" d="M19 9A7 7 0 1 0 5 9c0 1.387.409 2.677 1.105 3.765h-.008L12 22l5.903-9.235h-.007A6.97 6.97 0 0 0 19 9m-7 3a3 3 0 1 1 0-6a3 3 0 0 1 0 6" /></svg>
-                        Medellin - Antioquia</Badge>
+                    <Badge className=" bg-white text-black hover:text-white text-sm"><svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" className="pr-1"><path fill="#dc2626" d="M19 9A7 7 0 1 0 5 9c0 1.387.409 2.677 1.105 3.765h-.008L12 22l5.903-9.235h-.007A6.97 6.97 0 0 0 19 9m-7 3a3 3 0 1 1 0-6a3 3 0 0 1 0 6" /></svg>
+                        <h1 className='cursor-text'>Medellin - Antioquia</h1>
+                    </Badge>
                 </div>
                 <div className="flex gap-3 pt-2 pl-3">
+
+                    <Badge className="bg-white/10 backdrop-blur-lg text-black hover:text-white text-sm"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" className='pr-2'><path fill="#000000" d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm3.519 0L12 11.671L18.481 6zM20 7.329l-7.341 6.424a1 1 0 0 1-1.318 0L4 7.329V18h16z"/></svg>
+                        juanzapata10b@gmail.com
+                    </Badge>
 
                     <Link
                         href="/#"
