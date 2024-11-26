@@ -4,37 +4,18 @@ const Aboutme = () => {
 
     return (
 
-        <section className="w-2/4 text-white bg-white/10 backdrop-blur-md mt-10">
-            <div className="mx-auto max-w-screen-xl px-4 py-32">
-                <div className="mx-auto max-w-3xl text-center">
+        <section className="w-3/5 h-auto text-white bg-white/10 backdrop-blur-md mt-10 rounded-md shadow-lg border-white/5 border-2">
+            <div className="my-6">
+                <div className="mx-5 text-start">
                     <h1
-                        className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+                        className="text-white font-bold text-5xl"
                     >
-                        Understand User Flow.
-
-                        <span className="sm:block"> Increase Conversion. </span>
+                        Sobre mi.
                     </h1>
 
-                    <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
-                        numquam ea!
+                    <p className=" mt-4 text-lg">
+                        Soy un desarrollador junior enfocado en el aprendizaje continuo y la mejora constante de mis habilidades. Mi compromiso y curiosidad me impulsan a buscar soluciones creativas y a mantenerme al día con las últimas tendencias en desarrollo de software. Me apasiona colaborar en proyectos que aporten valor real y me permitan crecer junto a otros profesionales del sector.
                     </p>
-
-                    <div className="mt-8 flex flex-wrap justify-center gap-4">
-                        <a
-                            className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-                            href="#"
-                        >
-                            Get Started
-                        </a>
-
-                        <a
-                            className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-                            href="#"
-                        >
-                            Learn More
-                        </a>
-                    </div>
                 </div>
             </div>
         </section>

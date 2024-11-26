@@ -2,6 +2,7 @@ import Bgtres from "./components/bgtres";
 import { Navbar } from "./components/navbar";
 import Prcard from "./components/prcard";
 import Aboutme from "./components/aboutme";
+import { Technologies } from "./components/technologies";
 
 export default function Home() {
   return (
@@ -23,6 +24,10 @@ export default function Home() {
 
       <div className="flex justify-center">
         <Aboutme />
+      </div>
+
+      <div className="flex justify-center">
+        <Technologies />
       </div>
 
 

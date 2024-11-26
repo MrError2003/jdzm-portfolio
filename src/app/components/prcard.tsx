@@ -8,11 +8,11 @@ import RippleButton from '@/components/ui/ripple-button';
 
 const Prcard = () => {
     return (
-        <div className="flex items-center p-3 w-3/4 h-48 bg-white/10 backdrop-blur-md rounded-md shadow-lg border-white/5 border-2">
+        <div className="flex items-center p-3 w-3/5 h-48 bg-white/10 backdrop-blur-md rounded-md shadow-lg border-white/5 border-2">
             <section className="flex ml-10 justify-center items-center size-40 rounded-full shadow-md bg-gradient-to-r from-[#268C5C] to-[#0F402E]">
                 <Image src="/images/fotopersonal.png" alt="avatar" width={160} height={160} className="rounded-full" />
             </section>
-            <section className=" pt-1 ">
+            <section className=" pt-1 pb-5">
                 <div className="pl-3">
                     <HyperText
                         className="text-gray-200 font-bold text-4xl"
@@ -26,7 +26,7 @@ const Prcard = () => {
                 </div>
                 <div className="flex gap-3 pt-2 pl-3">
 
-                    <Badge className="bg-white/10 backdrop-blur-lg text-black hover:text-white text-sm"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" className='pr-2'><path fill="#000000" d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm3.519 0L12 11.671L18.481 6zM20 7.329l-7.341 6.424a1 1 0 0 1-1.318 0L4 7.329V18h16z"/></svg>
+                    <Badge className="bg-white/10 backdrop-blur-lg text-black hover:text-white text-sm"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" className="pr-2 fill-current"><path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm3.519 0L12 11.671L18.481 6zM20 7.329l-7.341 6.424a1 1 0 0 1-1.318 0L4 7.329V18h16z"/></svg>
                         juanzapata10b@gmail.com
                     </Badge>
 
