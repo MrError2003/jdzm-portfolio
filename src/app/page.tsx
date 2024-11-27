@@ -3,6 +3,8 @@ import { Navbar } from "./components/navbar";
 import Prcard from "./components/prcard";
 import Aboutme from "./components/aboutme";
 import { Technologies } from "./components/technologies";
+import { Projects } from "./components/projects";
+import { Education } from "./components/education";
 
 export default function Home() {
   return (
@@ -29,6 +31,16 @@ export default function Home() {
       <div className="flex justify-center">
         <Technologies />
       </div>
+
+      <div className="flex justify-center">
+        <Projects />
+      </div>
+
+      <div className="flex justify-center">
+        <Education />
+      </div>
+
+
 
 
 
