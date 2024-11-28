@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import HyperText from "./../../components/ui/hyper-text";
 import { Badge } from "./../../components/ui/badge";
 
 
@@ -13,11 +12,9 @@ const Prcard = () => {
             </section>
             <section className=" pt-1 pb-5">
                 <div className="pl-3">
-                    <HyperText
-                        className="text-gray-200 font-bold text-4xl"
-                        duration={20}
-                        text="Juan David Zapata Márquez"
-                    />
+                    <h1 className="text-gray-200 font-bold text-4xl">
+                        Juan David Zapata Márquez
+                    </h1>
                     <h3 className="text-gray-200 text-lg mb-2 pl-1">Desarrollador web</h3>
                     <Badge className=" bg-white text-black hover:text-white text-sm"><svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" className="pr-1"><path fill="#dc2626" d="M19 9A7 7 0 1 0 5 9c0 1.387.409 2.677 1.105 3.765h-.008L12 22l5.903-9.235h-.007A6.97 6.97 0 0 0 19 9m-7 3a3 3 0 1 1 0-6a3 3 0 0 1 0 6" /></svg>
                         <h1 className='cursor-text'>Medellin - Antioquia</h1>
