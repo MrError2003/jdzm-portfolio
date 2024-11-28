@@ -1,10 +1,10 @@
 import Bgtres from "./components/bgtres";
-import { Navbar } from "./components/navbar";
 import Prcard from "./components/prcard";
 import Aboutme from "./components/aboutme";
 import { Technologies } from "./components/technologies";
 import { Projects } from "./components/projects";
 import { Education } from "./components/education";
+import { ContactForm } from "./components/contactform";
 
 export default function Home() {
   return (
@@ -14,17 +14,11 @@ export default function Home() {
         <Bgtres />
       </div>
 
-      <div className="fixed inset-0 z-50 pointer-events-none">
-        <div className="pointer-events-auto">
-          <Navbar />
-        </div>
-      </div>
-
-      <div className="mt-28 flex justify-center">
+      <div className="mt-10 flex justify-center">
         <Prcard />
       </div>
 
-      <div className="flex justify-center">
+      <div id="aboutme" className="flex justify-center scroll-mt-20">
         <Aboutme />
       </div>
 
@@ -32,18 +26,19 @@ export default function Home() {
         <Technologies />
       </div>
 
-      <div className="flex justify-center">
+      <div id="projects" className="flex justify-center scroll-mt-20">
         <Projects />
       </div>
 
-      <div className="flex justify-center">
+      <div id="education" className="flex justify-center scroll-mt-20">
         <Education />
       </div>
 
+      <div id="contact ">
+        <ContactForm />
+      </div>
 
-
-
-
+      
 
 
     </>
