@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Education = () => {
     return (
-        <div className="w-3/5 px-4 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 bg-white/10 backdrop-blur-md rounded-md shadow-lg border-white/5 border-2">
+        <div className="w-4/5 px-4 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 bg-white/10 backdrop-blur-md rounded-md shadow-lg border-white/5 border-2">
             <div className="pb-4 mt-6 text-start">
                 <h1
                     className="text-white font-bold text-5xl"

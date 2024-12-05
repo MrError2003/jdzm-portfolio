@@ -2,7 +2,7 @@ import React from "react";
 
 export const Technologies = () => {
     return (
-        <div className="px-4 py-6 mx-auto mt-10 text-white bg-white/10 backdrop-blur-md rounded-md shadow-lg border-white/5 border-2 sm:max-w-xl w-3/5 md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-4 lg:py-6">
+        <div className="px-4 py-6 mx-auto mt-10 text-white bg-white/10 backdrop-blur-md rounded-md shadow-lg border-white/5 border-2 sm:w-4/5 md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-4 lg:py-6">
             <div className="mx-4 text-center mb-10">
                 <h2 className="text-5xl font-bold sm:text-5xl md:mx-auto">
                     Tecnologías

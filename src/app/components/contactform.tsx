@@ -88,7 +88,7 @@ export const ContactForm = () => {
                         name="message"
                         value={formData.message}
                         onChange={handleChange}
-                        className="bg-white/5 backdrop-blur-lg hover:text-gray-800 placeholder-zinc-200 border-0 rounded-md p-2 mb-auto focus:bg-white focus:outline-none focus:ring-2 focus:ring-white md:mb-auto md:w-full md:h-auto md:min-h-[100px] md:max-h-[100px] md:flex-grow md:flex-shrink md:flex-auto focus:bg-gray-md:focus:outline-none:focus:ring-blue-md:focus:border-transparent transition ease-in-out duration-fastest"
+                        className="bg-white/5 backdrop-blur-lg hover:text-gray-800 placeholder-zinc-200 border-0 rounded-md p-2 h-auto w-full mb-auto focus:bg-white focus:outline-none focus:ring-2 focus:ring-white md:mb-auto md:h-auto md:min-h-[100px] focus:bg-gray-md:focus:outline-none:focus:ring-blue-md:focus:border-transparent transition ease-in-out duration-fastest"
                         placeholder="Mensage"
                     ></textarea>
 
