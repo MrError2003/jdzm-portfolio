@@ -29,10 +29,10 @@ export const ContactForm = () => {
 
         emailjs
             .sendForm(
-                "portfolio_jdzm2003", // Reemplaza con tu Service ID
-                "template_gyg0uh3", // Reemplaza con tu Template ID
-                e.target as HTMLFormElement, // El formulario
-                "_iA1ubS9KIyWcFWcw" // Reemplaza con tu User ID
+                "portfolio_jdzm2003", 
+                "template_gyg0uh3", 
+                e.target as HTMLFormElement, 
+                "_iA1ubS9KIyWcFWcw" 
             )
             .then(
                 (result) => {
